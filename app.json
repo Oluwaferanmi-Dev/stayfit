@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "StayFit",
+    "slug": "stayfit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.feranmidevorg.stayfit"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.feranmidevorg.stayfit"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76b84a83-7357-404d-8ed9-9b975490f82a"
+      }
+    },
+    "owner": "feranmi.dev-org",
+    "updates": {
+      "url": "https://u.expo.dev/76b84a83-7357-404d-8ed9-9b975490f82a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
